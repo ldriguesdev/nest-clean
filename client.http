@@ -28,3 +28,8 @@
  POST {{baseUrl}}/questions
  Content-Type: application/json
  Authorization: Bearer {{authToken}}
+
+ {
+   "title": "Nova teste",
+   "content": "Teste"
+ }
