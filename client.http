@@ -30,6 +30,14 @@
  Authorization: Bearer {{authToken}}
 
  {
-   "title": "Nova teste",
+   "title": "Nova teste3",
    "content": "Teste"
  }
+
+###
+
+ # @name fetch_recent_questions
+ GET {{baseUrl}}/questions?page=1&perPage=2
+ Content-Type: application/json
+ Authorization: Bearer {{authToken}}
+
